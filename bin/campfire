@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'campfire'
+
+Campfire::Runner.run ARGV
