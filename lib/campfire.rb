@@ -1,0 +1,3 @@
+module Campfire
+  # Your code goes here...
+end
