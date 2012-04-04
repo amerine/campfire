@@ -6,6 +6,7 @@ Usage
 
 ### Config
 Create a `~/.campfirerc` and add the following lines:
+
 	account=<<ACCOUNT NAME>>
 	room=<<ROOM NAME>>
 	token=<<TOKEN>>
@@ -13,12 +14,15 @@ Create a `~/.campfirerc` and add the following lines:
 OR
 
 Use environment variables:
+
 	➜  account="foo" room="room" token="token" campfire "Woot"
 
 ### Post a message to a room
+
 	➜  campfire "Woot"
 
 ### Post a meme image to Campfire
+
 	➜  meme CHALLENGE_ACCEPTED "Campfire Message" "Hell yeah" | imgur2 | campfire
 
 ## Note on Patches/Pull Requests
